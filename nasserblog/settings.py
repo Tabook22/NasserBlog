@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-u8pid-ns&!7!2*#nc^panic5&ji7y3w(1$rqiy5q%pn$kqw@(b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['allmona.com','165.227.92.169','localhost']
+ALLOWED_HOSTS = ['allmona.com','www.allmona.com','165.227.92.169','localhost']
 
 
 # Application definition
