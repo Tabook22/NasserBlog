@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u8pid-ns&!7!2*#nc^panic5&ji7y3w(1$rqiy5q%pn$kqw@(b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['allmona.com','www.allmona.com','165.227.92.169','localhost']
 
@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]y
+]
 
 ROOT_URLCONF = 'nasserblog.urls'
 
